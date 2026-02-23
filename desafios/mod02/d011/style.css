@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+  background-image: url('imagens/espaco.jpg'); /* Caminho da imagem */
+  background-size: cover; /* Ajusta a imagem ao tamanho da tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetição */
+  background-attachment: fixed; /* Opcional: fixa a imagem ao rolar a página */
+  height: 100vh; /* Opcional: garante altura total */
+  margin: 0; /* Remove margens padrão */
+}
+
+img{
+    display: block;
+    margin: auto;
+}
